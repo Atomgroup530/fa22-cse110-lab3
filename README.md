@@ -1,3 +1,3 @@
-# Lab 2
+# Lab 3
 
-Published Site: https://atomgroup530.github.io/CSE-110-FA22-Lab2/
+Published Site: https://atomgroup530.github.io/fa22-cse110-lab3/
