@@ -2,7 +2,17 @@
 body {
     background-color: lightblue;
   }
+  p {
+
+
+    color: #004080;
   
+  
+  }
+  section {
+    color:rgb(220, 117, 39);
+  }
+
   h1 {
     color: navy;
     margin-left: 10px;
@@ -10,5 +20,30 @@ body {
 
     padding-top: (1/96)in;
     padding: bottom 1.5rem;
+
+    text-decoration: underline;
     
   }
+  li {
+    color:hsl(0, 100%, 50%);
+  }
+  
+  label {
+    text-align:center;
+  }
+
+  .box {
+    background-color: #567895;
+    border: 5px solid #0b385f;
+    border-style: dashed;
+    border-color: #fff;
+    border-radius:10cm;
+  }
+  
+  h2 {
+    border-top-width: 2px dotted rebeccapurple;
+    border-bottom: 1em double rgb(24, 163, 78);
+    border-width:10vh;
+
+  }
+      
