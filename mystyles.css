@@ -43,15 +43,6 @@ body {
     /* Text*/
     text-align:center;
   }
-
-  .box {
-    background-color: #567895;
-    /* Box Model & Unit*/
-    border: 5px solid #0b385f;
-    border-style: dashed;
-    border-color: #fff;
-    border-radius:10cm;
-  } 
   
   h2 {
     /* Box Model & Unit*/
@@ -77,3 +68,18 @@ body {
   button:hover {
     color: whitesmoke;
   }
+  .box {
+    background-color: #955664;
+    /* Box Model & Unit*/
+    border: 5px solid #eff2f5;
+    border-style: dashed;
+    border-color: #fff;
+    border-radius:10cm;
+    }
+    .flex-container {
+      display:flex;
+      flex-direction:row-reversed;
+      flex-wrap:warp;
+      justify-content:center;
+      background-color:purple;
+    }
