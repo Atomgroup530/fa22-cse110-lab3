@@ -1,39 +1,46 @@
 /* Stylesheet linked to index */
 body {
+    /* Back Ground */
     background-color: lightblue;
   }
   p {
 
-
+    /* Color & Text*/
     color: #004080;
   
   
   }
   section {
+    /* Color */
     color:rgb(220, 117, 39);
   }
 
   h1 {
+    /* Color */
     color: navy;
+    /* Box Model & Unit*/
     margin-left: 10px;
     margin:top 10pt;
-
+    /* Box Model & Unit*/
     padding-top: (1/96)in;
     padding: bottom 1.5rem;
-
+    /* Text*/
     text-decoration: underline;
     
   }
   li {
+    /* Color */
     color:hsl(0, 100%, 50%);
   }
   
   label {
+    /* Text*/
     text-align:center;
   }
 
   .box {
     background-color: #567895;
+    /* Box Model & Unit*/
     border: 5px solid #0b385f;
     border-style: dashed;
     border-color: #fff;
@@ -41,6 +48,7 @@ body {
   }
   
   h2 {
+    /* Box Model & Unit*/
     border-top-width: 2px dotted rebeccapurple;
     border-bottom: 1em double rgb(24, 163, 78);
     border-width:10vh;
