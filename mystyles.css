@@ -51,7 +51,7 @@ body {
     border-style: dashed;
     border-color: #fff;
     border-radius:10cm;
-  }
+  } 
   
   h2 {
     /* Box Model & Unit*/
@@ -73,4 +73,7 @@ body {
     position: sticky;
     bottom: 10px;
   }
-      
+  /* Pseudo Class */
+  button:hover {
+    color: whitesmoke;
+  }
