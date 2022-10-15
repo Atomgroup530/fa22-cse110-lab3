@@ -1,7 +1,13 @@
 /* Stylesheet linked to index */
+@font-face {
+  font-family: FuzzyBubbles;
+  src: url("uploads\FuzzyBubbles-Regular.ttf");
+}
 body {
     /* Back Ground */
     background-color: lightblue;
+    font-family: FuzzyBubbles;
+    color: #004080;
   }
   p {
     /* display & sizing*/
@@ -11,8 +17,6 @@ body {
     background-color: rgb(183, 204, 223);
     /* Color & Text*/
     color: #004080;
-  
-  
   }
 
   section {
