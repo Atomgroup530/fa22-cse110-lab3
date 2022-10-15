@@ -4,7 +4,11 @@ body {
     background-color: lightblue;
   }
   p {
-
+    /* display & sizing*/
+    display:block;
+    width: 200pt;
+    max-height: 50pt;
+    background-color: rgb(183, 204, 223);
     /* Color & Text*/
     color: #004080;
   
@@ -26,7 +30,6 @@ body {
     padding: bottom 1.5rem;
     /* Text*/
     text-decoration: underline;
-    
   }
   li {
     /* Color */
@@ -53,5 +56,13 @@ body {
     border-bottom: 1em double rgb(24, 163, 78);
     border-width:10vh;
 
+  }
+
+  span {
+    /* display & sizing*/
+    display: inline-block;
+    background-color: #b8dfeb;
+    min-width: 100pt;
+    height: 30pt;
   }
       
