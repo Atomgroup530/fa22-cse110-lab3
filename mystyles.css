@@ -14,6 +14,7 @@ body {
   
   
   }
+
   section {
     /* Color */
     color:rgb(220, 117, 39);
@@ -30,6 +31,8 @@ body {
     padding: bottom 1.5rem;
     /* Text*/
     text-decoration: underline;
+    /* position */
+    position: static;
   }
   li {
     /* Color */
@@ -64,5 +67,10 @@ body {
     background-color: #b8dfeb;
     min-width: 100pt;
     height: 30pt;
+  }
+  form{
+    /* position */
+    position: sticky;
+    bottom: 10px;
   }
       
