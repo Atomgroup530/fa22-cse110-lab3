@@ -112,3 +112,7 @@ body {
   a[href^="https"] {
     color: green;
   }
+
+  a:hover {
+    font-weight: bold;
+  }
