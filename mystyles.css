@@ -1,0 +1,131 @@
+/* Stylesheet linked to index */
+@font-face {
+  font-family: FuzzyBubbles;
+  src: url("uploads/FuzzyBubbles-Regular.ttf");
+}
+body {
+    /* Back Ground */
+    background-color: lightblue;
+    font-family: FuzzyBubbles;
+    color: #004080;
+  }
+  p {
+    /* display & sizing*/
+    display:block;
+    width: 200pt;
+    max-height: 50pt;
+    background-color: rgb(183, 204, 223);
+    /* Color & Text*/
+    color: #004080;
+  }
+
+  section {
+    /* Color */
+    color:rgb(220, 117, 39);
+  }
+
+  h1 {
+    /* Color */
+    color: navy;
+    /* Box Model & Unit*/
+    margin-left: 10px;
+    margin:top 10pt;
+    /* Box Model & Unit*/
+    padding-top: (1/96)in;
+    padding: bottom 1.5rem;
+    /* Text*/
+    text-decoration: underline;
+    /* position */
+    position: static;
+  }
+  li {
+    /* Color */
+    color:hsl(0, 100%, 50%);
+  }
+  
+  label {
+    /* Text*/
+    text-align:center;
+  }
+  
+  h2 {
+    /* Box Model & Unit*/
+    border-top-width: 2px dotted rebeccapurple;
+    border-bottom: 1em double rgb(24, 163, 78);
+    border-width:10vh;
+
+  }
+
+  span {
+    /* display & sizing*/
+    display: inline-block;
+    background-color: #b8dfeb;
+    min-width: 100pt;
+    height: 30pt;
+  }
+  form{
+    /* position */
+    position: sticky;
+    bottom: 10px;
+  }
+  /* Pseudo Class */
+  button:hover {
+    color: whitesmoke;
+  }
+  .box {
+    background-color: #955664;
+    /* Box Model & Unit*/
+    border: 5px solid #eff2f5;
+    border-style: dashed;
+    border-color: #fff;
+    border-radius:10cm;
+    }
+  .flex-container {
+    display:flex;
+    flex-direction:row-reversed;
+    flex-wrap:warp;
+    justify-content:center;
+    background-color:purple;
+  }
+  .grid-container{
+    display:grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+  }
+  .item-1{
+    grid-column-start: 1;
+  }
+  @media (max-width: 600px){
+    body {
+      background-color: white;
+    }
+  }
+
+  #colleges{
+    color: purple;
+  }
+
+  *.warning, a:hover {
+    color: red;
+    font-weight: bold;
+  }
+
+  a[href^="https"] {
+    color: green;
+  }
+
+  section p {
+    text-decoration: underline;
+  }
+  section > h2 {
+    text-decoration: line-through;
+  }
+  p+h3 {
+    background-color: #955664;
+  }
+  form ~ label {
+    background-color: aqua;
+  }
+  p2+h2, li {
+    font-weight: bold;
+  }
