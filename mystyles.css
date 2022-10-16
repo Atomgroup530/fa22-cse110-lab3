@@ -108,3 +108,7 @@ body {
   *.warning {
     color: red;
   }
+
+  a[href^="https"] {
+    color: green;
+  }
