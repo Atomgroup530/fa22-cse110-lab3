@@ -104,3 +104,7 @@ body {
   #colleges{
     color: purple;
   }
+
+  *.warning {
+    color: red;
+  }
