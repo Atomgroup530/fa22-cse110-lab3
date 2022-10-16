@@ -105,14 +105,27 @@ body {
     color: purple;
   }
 
-  *.warning {
+  *.warning, a:hover {
     color: red;
+    font-weight: bold;
   }
 
   a[href^="https"] {
     color: green;
   }
 
-  a:hover {
+  section p {
+    text-decoration: underline;
+  }
+  section > h2 {
+    text-decoration: line-through;
+  }
+  p+h3 {
+    background-color: #955664;
+  }
+  form ~ label {
+    background-color: aqua;
+  }
+  p2+h2, li {
     font-weight: bold;
   }
